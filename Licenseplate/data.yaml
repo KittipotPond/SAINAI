@@ -1,0 +1,18 @@
+path: "C:/Users/kitti/OneDrive/Sainai Coding/SAINAI/Licenseplate"
+train: "train/images"
+val: "valid/images"
+
+
+#train: ../train/images
+#val: ../valid/images
+#test: ../test/images
+
+nc: 2
+names: ['letters', 'province']
+
+roboflow:
+  workspace: test-workspace-frspv
+  project: my-custom-dataset
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-workspace-frspv/my-custom-dataset/dataset/1
